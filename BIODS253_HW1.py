@@ -1,6 +1,6 @@
 from math import factorial
 
-lines = 15
+lines = int(input("Enter the number of lines"))
 for row in range(lines):
     for column in range(lines-row+1):
         print(end=" ")
